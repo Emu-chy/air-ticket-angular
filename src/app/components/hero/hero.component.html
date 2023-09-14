@@ -1,0 +1,1150 @@
+<main
+  class="temp-content temp-changeable-content top-slider-search dynamic-style"
+>
+  <div class="banner-search-section">
+    <div class="slider-container">
+      <div
+        class="main-slider"
+        style="background-image: url('../../../assets/images/flight.jpg')"
+      >
+        <!-- Swiper -->
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"></div>
+          </div>
+
+          <!-- Add Pagination -->
+          <!--  <div class="swiper-pagination swiper-pagination-white"></div>-->
+          <!-- Add Arrows -->
+          <div class="swiper-button-next swiper-button-white">
+            <i class="fa fa-long-arrow-right"></i>
+          </div>
+          <div class="swiper-button-prev swiper-button-white">
+            <i class="fa fa-long-arrow-left"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bk-search-section dashboard-search d-search-panel-c">
+      <div class="search-inner-sec">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="search-areas">
+                <div class="search-dashboard">
+                  <!-- Search Section Start -->
+                  <div class="c-serach-panel">
+                    <div
+                      class="tab-content tabs-body d-search-panel-bg d-search-panel-c"
+                      id="myTabContent"
+                    >
+                      <!--Tab Button Start-->
+                      <ul
+                        class="nav nav-tabs search-tabs"
+                        id="myTab"
+                        role="tablist"
+                      >
+                        <li class="tab-item flight">
+                          <a
+                            class="proTab tabs active d-search-panel-bg d-search-panel-c"
+                            id="flight-tab"
+                            data-toggle="tab"
+                            href="#flight"
+                            role="tab"
+                            aria-controls="flight"
+                            aria-selected="true"
+                          >
+                            <!-- <i class="fal fa-plane" aria-hidden="true"></i> -->
+                            <span>Flights</span></a
+                          >
+                        </li>
+
+                        <li class="tab-item package">
+                          <a
+                            class="proTab tabs d-search-panel-bg d-search-panel-c"
+                            id="packages-tab"
+                            data-toggle="tab"
+                            href="#packages"
+                            role="tab"
+                            aria-controls="packages"
+                            aria-selected="false"
+                          >
+                            <!-- <i class="fal fa-umbrella-beach"></i> -->
+                            <span>Packages</span>
+                          </a>
+                        </li>
+
+                        <li class="tab-item visa">
+                          <a
+                            class="proTab tabs d-search-panel-bg d-search-panel-c"
+                            id="visa-tab"
+                            data-toggle="tab"
+                            href="#visa"
+                            role="tab"
+                            aria-controls="visa"
+                            aria-selected="false"
+                          >
+                            <!-- <i class="fa fa-id-card" aria-hidden="true"></i> -->
+                            <span>Visa</span>
+                          </a>
+                        </li>
+
+                        <li class="tab-item">
+                          <a
+                            class="proTab tabs d-search-panel-bg d-search-panel-c"
+                            href="home/group_ticket.html"
+                            role="tab"
+                          >
+                            <!-- <i class="fa fa-users-class" aria-hidden="true"></i> -->
+                            <span>Group Ticket</span>
+                          </a>
+                        </li>
+                      </ul>
+
+                      <!--Tab Button End-->
+                      <!--Flight Tab Content Start-->
+                      <div
+                        class="tab-pane fade active show"
+                        id="flight"
+                        role="tabpanel"
+                        aria-labelledby="flight-tab"
+                      >
+                        <!--Flight Inner Tab Content Start-->
+                        <div class="flight-inner-tabs">
+                          <!--Flight-->
+                          <!-- Tab panes -->
+                          <div class="tab-content tab-content-v17">
+                            <div class="inner-search-tabs">
+                              <!--                                                        <ul class="abt-search">-->
+                              <!--                                                            <li>Book Domestic & International Flight</li>-->
+                              <!--                                                        </ul>-->
+                              <!-- Nav tabs -->
+                              <ul class="nav nav-tabs inner">
+                                <li class="nav-item">
+                                  <a
+                                    class="nav-link round_oneway flight_trip_options"
+                                    data-toggle="tab"
+                                    href="#roundTrip"
+                                    trip-option="one_way"
+                                    ><span>One Way</span></a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a
+                                    class="nav-link active show round_oneway flight_trip_options"
+                                    data-toggle="tab"
+                                    href="#roundTrip"
+                                    trip-option="round"
+                                    ><span>Round Trip</span></a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a
+                                    class="nav-link"
+                                    data-toggle="tab"
+                                    href="#multiCity"
+                                    ><span>Multi City</span></a
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                            <!-- Round Trip Flight Inner Tab Pane Start-->
+                            <div
+                              class="tab-pane tabs fade active show"
+                              id="roundTrip"
+                            >
+                              <div class="tabs-content round-trip">
+                                <form
+                                  class="round-trip-reservation Flight_search_loader"
+                                  method="post"
+                                  action="https://myairticket.xyz/flight/flights_search"
+                                >
+                                  <input
+                                    type="hidden"
+                                    name="token"
+                                    value="7befee757309dd8ed69bc29f87580592"
+                                  />
+                                  <div class="row">
+                                    <div class="col-md-12">
+                                      <div class="form-row">
+                                        <div
+                                          class="form-group from col-12 col-sm-6 col-lg-4"
+                                        >
+                                          <label for="from">From</label>
+                                          <input
+                                            name="departure[]"
+                                            type="text"
+                                            class="input-text flightairports depa_1"
+                                            placeholder="From"
+                                            required="true"
+                                            autocomplete="off"
+                                          />
+                                        </div>
+
+                                        <div
+                                          class="form-group to col-12 col-sm-6 col-lg-4"
+                                        >
+                                          <label for="to">To</label>
+                                          <input
+                                            name="arrival[]"
+                                            type="text"
+                                            class="input-text flightairports arriv_1"
+                                            placeholder="To"
+                                            required="true"
+                                            autocomplete="off"
+                                          />
+                                        </div>
+
+                                        <div
+                                          class="form-group depert col-12 col-sm-6 col-md-6 col-lg-2"
+                                        >
+                                          <label for="depert"
+                                            >Journey Date</label
+                                          >
+                                          <input
+                                            onkeypress="return false"
+                                            name="departuredate[]"
+                                            type="text"
+                                            class="input-text datePickerStart"
+                                            placeholder="dd-mm-yyyy"
+                                            required="true"
+                                            autocomplete="off"
+                                          />
+                                        </div>
+
+                                        <div
+                                          class="form-group return col-12 col-sm-6 col-md-6 col-lg-2"
+                                        >
+                                          <label
+                                            for="return"
+                                            class="one_way_end_check"
+                                            >Return</label
+                                          >
+                                          <input
+                                            onkeypress="return false"
+                                            name="arrivaldate[]"
+                                            type="text"
+                                            class="input-text datePickerEnd one_way_end_date"
+                                            placeholder="dd-mm-yyyy"
+                                            required="true"
+                                            autocomplete="off"
+                                          />
+                                        </div>
+                                      </div>
+                                      <div class="form-row">
+                                        <div
+                                          class="form-group travelers col-12 col-md-4 col-lg-2"
+                                        >
+                                          <div class="traveller-info">
+                                            <label class="trvn"
+                                              >Adult(12+)</label
+                                            >
+                                            <div class="input-sec">
+                                              <button
+                                                class="btn-number plus-btn quantity-selector-increment-adult"
+                                                data-type="plus"
+                                                type="button"
+                                              >
+                                                <i class="fa fa-plus"></i>
+                                              </button>
+                                              <input
+                                                readonly=""
+                                                type="text"
+                                                class="input-text-trv"
+                                                name="total_adult"
+                                                value="1"
+                                                id="quantity-selector-current-adult-input"
+                                              />
+                                              <button
+                                                class="btn-number minus-btn quantity-selector-decrement-adult"
+                                                data-type="minus"
+                                                type="button"
+                                              >
+                                                <i class="fa fa-minus"></i>
+                                              </button>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div
+                                          class="form-group travelers col-12 col-md-4 col-lg-2"
+                                        >
+                                          <div class="traveller-info">
+                                            <label class="trvn"
+                                              >Child(2-11)</label
+                                            >
+                                            <div class="input-sec">
+                                              <button
+                                                class="btn-number plus-btn quantity-selector-increment-child"
+                                                data-type="plus"
+                                                type="button"
+                                              >
+                                                <i class="fa fa-plus"></i>
+                                              </button>
+                                              <input
+                                                readonly=""
+                                                type="text"
+                                                class="input-text-trv"
+                                                name="total_child"
+                                                value="0"
+                                                id="quantity-selector-current-child-input"
+                                              />
+                                              <button
+                                                class="btn-number minus-btn quantity-selector-decrement-child"
+                                                data-type="minus"
+                                                type="button"
+                                              >
+                                                <i class="fa fa-minus"></i>
+                                              </button>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div
+                                          class="form-group travelers col-12 col-md-4 col-lg-2"
+                                        >
+                                          <div class="traveller-info">
+                                            <label class="trvn"
+                                              >Infant(0-2)</label
+                                            >
+                                            <div class="input-sec">
+                                              <button
+                                                class="btn-number plus-btn quantity-selector-increment-infant"
+                                                data-type="plus"
+                                                type="button"
+                                              >
+                                                <i class="fa fa-plus"></i>
+                                              </button>
+                                              <input
+                                                readonly=""
+                                                type="text"
+                                                class="input-text-trv"
+                                                name="total_infant"
+                                                value="0"
+                                                id="quantity-selector-current-infant-input"
+                                              />
+                                              <button
+                                                class="btn-number minus-btn quantity-selector-decrement-infant"
+                                                data-type="minus"
+                                                type="button"
+                                              >
+                                                <i class="fa fa-minus"></i>
+                                              </button>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div
+                                          class="form-group ftype col-12 col-sm-6 col-md-6 col-lg-3"
+                                        >
+                                          <label class="trvn">&nbsp;</label>
+                                          <div class="flight-class-type">
+                                            <div class="bk-form-check">
+                                              <input
+                                                class="inp-cbx"
+                                                id="cbx17Multi"
+                                                value="Economy"
+                                                checked="checked"
+                                                name="class"
+                                                type="radio"
+                                                style="display: none"
+                                              />
+                                              <label
+                                                class="cbx"
+                                                for="cbx17Multi"
+                                              >
+                                                <span
+                                                  ><svg
+                                                    width="12px"
+                                                    height="10px"
+                                                    viewBox="0 0 12 10"
+                                                  >
+                                                    <polyline
+                                                      points="1.5 6 4.5 9 10.5 1"
+                                                    ></polyline></svg
+                                                ></span>
+                                                <span>Economy</span>
+                                              </label>
+                                            </div>
+                                            <div class="bk-form-check">
+                                              <input
+                                                class="inp-cbx"
+                                                id="cbx18Multi"
+                                                value="Business"
+                                                name="class"
+                                                type="radio"
+                                                style="display: none"
+                                              />
+                                              <label
+                                                class="cbx"
+                                                for="cbx18Multi"
+                                              >
+                                                <span
+                                                  ><svg
+                                                    width="12px"
+                                                    height="10px"
+                                                    viewBox="0 0 12 10"
+                                                  >
+                                                    <polyline
+                                                      points="1.5 6 4.5 9 10.5 1"
+                                                    ></polyline></svg
+                                                ></span>
+                                                <span>Business</span>
+                                              </label>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div
+                                          class="form-group ftype col-12 col-sm-6 col-md-6 col-lg-3"
+                                        >
+                                          <label class="trvn">&nbsp;</label>
+                                          <div
+                                            class="flight-class-type advance-search"
+                                          >
+                                            <div class="bk-form-check">
+                                              <input
+                                                class="inp-cbx"
+                                                id="adv17"
+                                                name="advance"
+                                                type="checkbox"
+                                                style="display: none"
+                                              />
+                                              <label
+                                                class="cbx advance-btn"
+                                                for="adv17"
+                                              >
+                                                <span
+                                                  ><svg
+                                                    width="12px"
+                                                    height="10px"
+                                                    viewBox="0 0 12 10"
+                                                  >
+                                                    <polyline
+                                                      points="1.5 6 4.5 9 10.5 1"
+                                                    ></polyline></svg
+                                                ></span>
+                                                <span>Advanced Search</span>
+                                              </label>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="form-row advance-content">
+                                        <div
+                                          class="form-group from col-12 col-sm-6 col-lg-3"
+                                        >
+                                          <label for="airline">Airline</label>
+                                          <select
+                                            name="PreferredAirlines[]"
+                                            class="input-text class"
+                                          >
+                                            <option value="">
+                                              Select airlines
+                                            </option>
+                                            <option value="AI">
+                                              AI(Air India)
+                                            </option>
+                                            <option value="BG">
+                                              BG(Biman Bangladesh Airlines)
+                                            </option>
+                                            <option value="H9">
+                                              H9(Himalaya Airlines)
+                                            </option>
+                                            <option value="RX">
+                                              RX(Regent Airways)
+                                            </option>
+                                            <option value="BS">
+                                              BS(US-Bangla)
+                                            </option>
+                                          </select>
+                                        </div>
+                                        <div
+                                          class="form-group from col-12 col-sm-6 col-lg-3"
+                                        >
+                                          <label for="airline">Airline</label>
+                                          <select
+                                            name="PreferredAirlines[]"
+                                            class="input-text class"
+                                          >
+                                            <option value="">
+                                              Select airlines
+                                            </option>
+                                            <option value="AI">
+                                              AI(Air India)
+                                            </option>
+                                            <option value="BG">
+                                              BG(Biman Bangladesh Airlines)
+                                            </option>
+                                            <option value="H9">
+                                              H9(Himalaya Airlines)
+                                            </option>
+                                            <option value="RX">
+                                              RX(Regent Airways)
+                                            </option>
+                                            <option value="BS">
+                                              BS(US-Bangla)
+                                            </option>
+                                          </select>
+                                        </div>
+                                        <div
+                                          class="form-group from col-12 col-sm-6 col-lg-3"
+                                        >
+                                          <label for="airline">Airline</label>
+                                          <select
+                                            name="PreferredAirlines[]"
+                                            class="input-text class"
+                                          >
+                                            <option value="">
+                                              Select airlines
+                                            </option>
+                                            <option value="AI">
+                                              AI(Air India)
+                                            </option>
+                                            <option value="BG">
+                                              BG(Biman Bangladesh Airlines)
+                                            </option>
+                                            <option value="H9">
+                                              H9(Himalaya Airlines)
+                                            </option>
+                                            <option value="RX">
+                                              RX(Regent Airways)
+                                            </option>
+                                            <option value="BS">
+                                              BS(US-Bangla)
+                                            </option>
+                                          </select>
+                                        </div>
+                                        <div
+                                          class="form-group from col-12 col-sm-6 col-lg-3"
+                                        >
+                                          <label for="airline">Airline</label>
+                                          <select
+                                            name="PreferredAirlines[]"
+                                            class="input-text class"
+                                          >
+                                            <option value="">
+                                              Select airlines
+                                            </option>
+                                            <option value="AI">
+                                              AI(Air India)
+                                            </option>
+                                            <option value="BG">
+                                              BG(Biman Bangladesh Airlines)
+                                            </option>
+                                            <option value="H9">
+                                              H9(Himalaya Airlines)
+                                            </option>
+                                            <option value="RX">
+                                              RX(Regent Airways)
+                                            </option>
+                                            <option value="BS">
+                                              BS(US-Bangla)
+                                            </option>
+                                          </select>
+                                        </div>
+                                      </div>
+                                      <div
+                                        class="form-row justify-content-center"
+                                      >
+                                        <div
+                                          class="form-group col-12 col-md-6 col-lg-4"
+                                        >
+                                          <div class="d-none">
+                                            <span
+                                              class="quantity-selector-current-adult"
+                                              >1</span
+                                            >
+                                            <span
+                                              class="quantity-selector-current-child"
+                                              >0</span
+                                            >
+                                            <span
+                                              class="quantity-selector-current-infant"
+                                              >0</span
+                                            >
+                                            <input
+                                              name="total_passenger"
+                                              class="quantity-selector-total"
+                                              value="1 Passenger"
+                                              type="hidden"
+                                              readonly=""
+                                            />
+                                            <input
+                                              type="hidden"
+                                              name="flight-options"
+                                              class="flight-option flight_trip_option_value"
+                                              value="round"
+                                            />
+                                          </div>
+                                          <!--<label for="submit">Search</label>-->
+                                          <div class="search-btn-sec">
+                                            <button
+                                              class="theme-btn"
+                                              type="submit"
+                                            >
+                                              <i
+                                                class="fa fa-angle-double-right"
+                                                aria-hidden="true"
+                                              ></i>
+                                              Search Flight
+                                            </button>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                            <!-- Round Trip Flight Inner Tab Pane Start-->
+                            <div class="d-none samplRow">
+                              <div class="form-row fp5 mrow">
+                                <div
+                                  class="form-group from col-12 col-sm-6 col-lg-4"
+                                >
+                                  <label for="from">From</label>
+                                  <input
+                                    name="departure[]"
+                                    type="text"
+                                    class="input-text flightairports fs_multi_id"
+                                    placeholder="From"
+                                    required="true"
+                                    autocomplete="off"
+                                  />
+                                </div>
+                                <div
+                                  class="form-group to col-12 col-sm-6 col-lg-4"
+                                >
+                                  <label for="to">To</label>
+                                  <input
+                                    id="fs_multi_id"
+                                    name="arrival[]"
+                                    type="text"
+                                    class="input-text flightairports arriv_multi"
+                                    placeholder="To"
+                                    required="true"
+                                    autocomplete="off"
+                                  />
+                                </div>
+                                <div
+                                  class="form-group depert col-9 col-sm-6 col-lg-3"
+                                >
+                                  <label for="depert">Journey Date</label>
+                                  <input
+                                    onkeypress="return false"
+                                    name="departuredate[]"
+                                    type="text"
+                                    class="input-text multi_date"
+                                    placeholder="dd-mm-yyyy"
+                                    required="true"
+                                    autocomplete="off"
+                                    onchange="return validate_multi_date(this);"
+                                  />
+                                </div>
+                                <div
+                                  class="form-group col-3 col-sm-2 col-lg-1 add"
+                                >
+                                  <label for="lbl">&nbsp;</label>
+                                  <button
+                                    type="button"
+                                    class="btn btnBt destroy-multi-stop-row"
+                                  >
+                                    <i class="fa fa-minus-circle"></i>
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="tab-pane tabs fade text" id="multiCity">
+                              <div class="tabs-content multi-city">
+                                <form
+                                  id="multi_stop_form"
+                                  class="multi-city-reservation Flight_search_loader"
+                                  method="post"
+                                  action="https://myairticket.xyz/flight/flights_search"
+                                >
+                                  <input
+                                    type="hidden"
+                                    name="token"
+                                    value="7befee757309dd8ed69bc29f87580592"
+                                  />
+                                  <div class="row">
+                                    <div
+                                      class="col-md-12"
+                                      id="append_multi_stop_row"
+                                    >
+                                      <div class="form-row fp5 mrow">
+                                        <div
+                                          class="form-group from col-12 col-sm-6 col-lg-4"
+                                        >
+                                          <label for="from">From</label>
+                                          <input
+                                            name="departure[]"
+                                            type="text"
+                                            class="input-text flightairports ams_1"
+                                            placeholder="From"
+                                            required="true"
+                                            autocomplete="off"
+                                          />
+                                        </div>
+                                        <div
+                                          class="form-group to col-12 col-sm-6 col-lg-4"
+                                        >
+                                          <label for="to">To</label>
+                                          <input
+                                            id="ams_1"
+                                            name="arrival[]"
+                                            type="text"
+                                            class="input-text flightairports arriv_multi"
+                                            placeholder="To"
+                                            required="true"
+                                            autocomplete="off"
+                                          />
+                                        </div>
+                                        <div
+                                          class="form-group depert col-9 col-sm-6 col-lg-3"
+                                        >
+                                          <label for="depert"
+                                            >Journey Date</label
+                                          >
+                                          <input
+                                            onkeypress="return false"
+                                            name="departuredate[]"
+                                            type="text"
+                                            class="input-text multi_date"
+                                            placeholder="dd-mm-yyyy"
+                                            required="true"
+                                            autocomplete="off"
+                                            onchange="return validate_multi_date(this);"
+                                          />
+                                        </div>
+                                        <div
+                                          class="form-group col-3 col-sm-2 col-lg-1 add"
+                                        >
+                                          <label for="lbl">&nbsp;</label>
+                                        </div>
+                                      </div>
+                                      <div class="form-row fp5 mrow">
+                                        <div
+                                          class="form-group from col-12 col-sm-6 col-lg-4"
+                                        >
+                                          <label for="from">From</label>
+                                          <input
+                                            name="departure[]"
+                                            type="text"
+                                            class="input-text flightairports ams_2"
+                                            placeholder="From"
+                                            required="true"
+                                            autocomplete="off"
+                                          />
+                                        </div>
+                                        <div
+                                          class="form-group to col-12 col-sm-6 col-lg-4"
+                                        >
+                                          <label for="to">To</label>
+                                          <input
+                                            id="ams_2"
+                                            name="arrival[]"
+                                            type="text"
+                                            class="input-text flightairports arriv_multi"
+                                            placeholder="To"
+                                            required="true"
+                                            autocomplete="off"
+                                          />
+                                        </div>
+                                        <div
+                                          class="form-group depert col-9 col-sm-6 col-lg-3"
+                                        >
+                                          <label for="depert"
+                                            >Journey Date</label
+                                          >
+                                          <input
+                                            onkeypress="return false"
+                                            name="departuredate[]"
+                                            type="text"
+                                            class="input-text multi_date"
+                                            placeholder="dd-mm-yyyy"
+                                            required="true"
+                                            autocomplete="off"
+                                            onchange="return validate_multi_date(this);"
+                                          />
+                                        </div>
+                                        <div
+                                          class="form-group col-3 col-sm-2 col-lg-1 rev"
+                                        >
+                                          <label for="lbl">&nbsp;</label>
+                                          <button
+                                            type="button"
+                                            class="btn btnBt add-multi-stop-row"
+                                          >
+                                            <i class="fa fa-plus-circle"></i>
+                                          </button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="form-row">
+                                    <div
+                                      class="form-group travelers col-12 col-md-4"
+                                    >
+                                      <div class="traveller-info">
+                                        <label class="trvn">Adult(12+)</label>
+                                        <div class="input-sec">
+                                          <button
+                                            class="btn-number plus-btn quantity-selector-increment-adult-2"
+                                            data-type="plus"
+                                            type="button"
+                                          >
+                                            <i class="fa fa-plus"></i>
+                                          </button>
+                                          <input
+                                            readonly=""
+                                            type="text"
+                                            class="input-text-trv"
+                                            name="total_adult"
+                                            value="1"
+                                            id="quantity-selector-current-adult-2-input"
+                                          />
+                                          <button
+                                            class="btn-number minus-btn quantity-selector-decrement-adult-2"
+                                            data-type="minus"
+                                            type="button"
+                                          >
+                                            <i class="fa fa-minus"></i>
+                                          </button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div
+                                      class="form-group travelers col-12 col-md-4"
+                                    >
+                                      <div class="traveller-info">
+                                        <label class="trvn">Child(2-11)</label>
+                                        <div class="input-sec">
+                                          <button
+                                            class="btn-number plus-btn quantity-selector-increment-child-2"
+                                            data-type="plus"
+                                            type="button"
+                                          >
+                                            <i class="fa fa-plus"></i>
+                                          </button>
+                                          <input
+                                            readonly=""
+                                            type="text"
+                                            class="input-text-trv"
+                                            name="total_child"
+                                            value="0"
+                                            id="quantity-selector-current-child-2-input"
+                                          />
+                                          <button
+                                            class="btn-number minus-btn quantity-selector-decrement-child-2"
+                                            data-type="minus"
+                                            type="button"
+                                          >
+                                            <i class="fa fa-minus"></i>
+                                          </button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div
+                                      class="form-group travelers col-12 col-md-4"
+                                    >
+                                      <div class="traveller-info">
+                                        <label class="trvn">Infant(0-2)</label>
+                                        <div class="input-sec">
+                                          <button
+                                            class="btn-number plus-btn quantity-selector-increment-infant-2"
+                                            data-type="plus"
+                                            type="button"
+                                          >
+                                            <i class="fa fa-plus"></i>
+                                          </button>
+                                          <input
+                                            readonly=""
+                                            type="text"
+                                            class="input-text-trv"
+                                            name="total_infant"
+                                            value="0"
+                                            id="quantity-selector-current-infant-2-input"
+                                          />
+                                          <button
+                                            class="btn-number minus-btn quantity-selector-decrement-infant-2"
+                                            data-type="minus"
+                                            type="button"
+                                          >
+                                            <i class="fa fa-minus"></i>
+                                          </button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="form-row">
+                                    <div
+                                      class="form-group ftype col-12 col-sm-8"
+                                    >
+                                      <div class="flight-class-type">
+                                        <div class="bk-form-check">
+                                          <input
+                                            class="inp-cbx"
+                                            id="cbx11"
+                                            checked="checked"
+                                            value="Economy"
+                                            name="class"
+                                            type="radio"
+                                            style="display: none"
+                                          />
+                                          <label class="cbx" for="cbx11">
+                                            <span
+                                              ><svg
+                                                width="12px"
+                                                height="10px"
+                                                viewBox="0 0 12 10"
+                                              >
+                                                <polyline
+                                                  points="1.5 6 4.5 9 10.5 1"
+                                                ></polyline></svg
+                                            ></span>
+                                            <span>Economy</span>
+                                          </label>
+                                        </div>
+                                        <div class="bk-form-check">
+                                          <input
+                                            class="inp-cbx"
+                                            id="cbx12"
+                                            type="radio"
+                                            value="Business"
+                                            name="class"
+                                            style="display: none"
+                                          />
+                                          <label class="cbx" for="cbx12">
+                                            <span
+                                              ><svg
+                                                width="12px"
+                                                height="10px"
+                                                viewBox="0 0 12 10"
+                                              >
+                                                <polyline
+                                                  points="1.5 6 4.5 9 10.5 1"
+                                                ></polyline></svg
+                                            ></span>
+                                            <span>Business</span>
+                                          </label>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="form-row justify-content-center">
+                                    <div
+                                      class="form-group col-12 col-md-6 col-lg-4"
+                                    >
+                                      <div class="d-none">
+                                        <span
+                                          class="quantity-selector-current-adult-2"
+                                          >1</span
+                                        >
+                                        <span
+                                          class="quantity-selector-current-child-2"
+                                          >0</span
+                                        >
+                                        <span
+                                          class="quantity-selector-current-infant-2"
+                                          >0</span
+                                        >
+                                        <input
+                                          name="total_passenger"
+                                          class="quantity-selector-total-2"
+                                          value="1 Passenger"
+                                          type="hidden"
+                                          readonly=""
+                                        />
+                                        <input
+                                          type="hidden"
+                                          name="flight-options"
+                                          class="flight-option"
+                                          value="multi_stop"
+                                        />
+                                      </div>
+                                      <!--<label for="submit">Search</label>-->
+                                      <div class="search-btn-sec">
+                                        <button class="theme-btn" type="submit">
+                                          <i
+                                            class="fa fa-angle-double-right"
+                                            aria-hidden="true"
+                                          ></i>
+                                          Search Flight
+                                        </button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                            <!-- Multi City Flight Inner Tab Pane Start-->
+                          </div>
+                        </div>
+                        <!--Flight-->
+                        <!--Flight Inner Tab Content End-->
+                      </div>
+                      <!--Flight Tab Content End-->
+
+                      <!--Package Tab Content Start-->
+                      <div
+                        class="tab-pane fade"
+                        id="packages"
+                        role="tabpanel"
+                        aria-labelledby="packages-tab"
+                      >
+                        <div class="tabs-content packages tab-content-v17">
+                          <form
+                            method="POST"
+                            class="my_common_loader"
+                            action="https://myairticket.xyz/package/search_package"
+                          >
+                            <input
+                              type="hidden"
+                              name="token"
+                              value="7befee757309dd8ed69bc29f87580592"
+                            />
+                            <input type="hidden" name="is_general" value="1" />
+                            <div class="form-row">
+                              <div
+                                class="form-group country col-12 col-xs-12 col-sm-6 col-md-6 col-lg-4"
+                              >
+                                <label for="country">Country</label>
+                                <input
+                                  name="TourLocation"
+                                  type="text"
+                                  class="input-text TourLocation"
+                                  placeholder="Where You Want To Go ?"
+                                  autocomplete="off"
+                                />
+                              </div>
+
+                              <div
+                                class="form-group package col-12 col-xs-12 col-sm-6 col-md-6 col-lg-4"
+                              >
+                                <label for="package">Check In</label>
+                                <input
+                                  onkeypress="return false"
+                                  type="text"
+                                  name="TourDepartureDate"
+                                  autocomplete="off"
+                                  placeholder="Check In"
+                                  class="input-text datePickerStart"
+                                />
+                              </div>
+                              <div
+                                class="form-group duration col-12 col-xs-12 col-sm-6 col-md-6 col-lg-4"
+                              >
+                                <label for="duration">Package Type</label>
+                                <select class="input-text" name="TourCategory">
+                                  <option value="">Select Package Type</option>
+                                </select>
+                              </div>
+                            </div>
+
+                            <div class="form-row justify-content-center">
+                              <div class="form-group col-12 col-md-6 col-lg-4">
+                                <!-- <label for="search">Search</label> -->
+                                <!-- <button class="theme-btn" type="submit">
+                                                                                                    <span>Search</span></button> -->
+
+                                <div class="search-btn-sec">
+                                  <button class="theme-btn" type="submit">
+                                    <i
+                                      class="fa fa-angle-double-right"
+                                      aria-hidden="true"
+                                    ></i>
+                                    Search Package
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                      <!--Package Tab Content End-->
+
+                      <!--Visa Tab Content Start-->
+                      <div
+                        class="tab-pane fade"
+                        id="visa"
+                        role="tabpanel"
+                        aria-labelledby="visa-tab"
+                      >
+                        <div class="tabs-content packages tab-content-v17">
+                          <form
+                            method="POST"
+                            class="my_common_loader"
+                            action="https://myairticket.xyz/visa/requirement"
+                          >
+                            <div class="form-row">
+                              <div class="form-group duration col-12 col-lg-12">
+                                <label for="duration"
+                                  >Choose Your Country</label
+                                >
+                                <select class="input-text" name="visa_country">
+                                  <option value="">Select Country</option>
+                                </select>
+                              </div>
+                            </div>
+                            <div class="form-row justify-content-center">
+                              <div class="form-group col-12 col-md-6 col-lg-4">
+                                <!-- <label for="search">Search</label> -->
+                                <div class="search-btn-sec">
+                                  <button class="theme-btn" type="submit">
+                                    <i
+                                      class="fa fa-angle-double-right"
+                                      aria-hidden="true"
+                                    ></i>
+                                    Search Visa
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                      <!--Visa Tab Content End-->
+                    </div>
+                    <!--Tab Body End-->
+                  </div>
+                  <!-- Search Section End -->
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-5">
+              <div class="add-banner">
+                <!-- Swiper -->
+                <div class="swiper-container">
+                  <div class="swiper-wrapper">
+                    <div
+                      class="swiper-slide"
+                      style="
+                        background-image: url('assets/templates/public/template_v17/assets/images/popular/sea_tour_img_2.jpg');
+                      "
+                    ></div>
+                    <div
+                      class="swiper-slide"
+                      style="
+                        background-image: url('assets/templates/public/template_v17/assets/images/popular/sea_tour_img_3.jpg');
+                      "
+                    ></div>
+                    <div
+                      class="swiper-slide"
+                      style="
+                        background-image: url('assets/templates/public/template_v17/assets/images/popular/sea_tour_img_4.jpg');
+                      "
+                    ></div>
+                  </div>
+                  <!-- Add Pagination -->
+                  <div class="swiper-pagination swiper-pagination-white"></div>
+                  <!-- Add Arrows -->
+                  <div class="swiper-button-next swiper-button-white"></div>
+                  <div class="swiper-button-prev swiper-button-white"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>

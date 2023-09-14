@@ -1,0 +1,342 @@
+@media only screen and (max-width: 575.98px){
+    /*============================Dashboard Style===========================*/
+    /* .dashboard-search{
+        top: 10%;
+        z-index: 999;
+    }
+    .dashboard-search .tab-item {
+        width: auto;
+        min-width: auto;
+        -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+    }
+    .dashboard-search .tab-item a.active,
+    .dashboard-search .tab-item a:hover,
+    .dashboard-search .tabs-body{
+        background: rgba(33, 42, 66, .9);
+    }
+    .dashboard-search .tabs-body{
+        min-height: 300px;
+    }
+    .inner-search-tabs .abt-search{
+        display: none;
+    }
+    .dashboard-search .nav.nav-tabs.inner {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .dashboard-search .nav.nav-tabs.inner .nav-item .nav-link:before {
+        top: 13px;
+    }
+    .dashboard-search .btn-number{
+        padding: 12px 10px;
+    }
+	.social-icon{
+		display: none;
+	} */
+    .header-top-inner, .signup-and-forget {
+        flex-direction: column;
+    }
+    .forget-sec {
+        margin-top: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .copyright{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .footer-bottom .social-links{
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .bk-search-section.dashboard-search{
+        top: 10%;
+    }
+    .flight-infos-details.destination,
+    .flight-infos.arrive{
+        text-align: left;
+    }
+    .price-inner.price-booking {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        width: 100%;
+        margin: 15px auto;
+    }
+
+    .common-form .form-group {
+        margin: 0 0 10px 0;
+    }
+    .section-body .inner-left,
+    .section-body .inner-right{
+        padding: 0 10px;
+    }
+    .inner-heading {
+        display: block;
+    }
+    .headings {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .inner-heading .status-section ul li{
+        margin-left: 0px;
+    }
+    .center-content {
+        margin-top: 10px;
+    }
+    .item-banner{
+        min-height: 400px;
+    }
+    .item-banner .swiper-slide{
+        height: 300px;
+    }
+    .aditional-filter{
+        display: none;
+    }
+    .flight-details-header{
+        flex-direction: column;
+    }
+    .baggage-allowance{
+        margin: 10px 0;
+    }
+    .flight-infos-details{
+        text-align: center;
+    }
+    .flight-details-body .airbus-details{
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .flight-infos-details.destination,
+    .flight-infos.arrive{
+        text-align: left;
+    }
+    .price-inner.price-booking {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        width: 100%;
+        margin: 15px auto;
+    }
+    .contact-infos{
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+    .contact-info .media-body h3{
+        font-size: 16px;
+    }
+    .contact-info__icon{
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: start;
+    }
+    .booking-sidebar ul{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        margin-top: 15px;
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    }
+    .booking-sidebar ul li{
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 991.98px){
+    /*============================Header Style========================*/
+    .temp-header.fixed-menu{
+        position: relative;
+    }
+    .temp-left li:nth-child(2){
+/*        display: none;*/
+    }
+    .temp-right li:nth-child(1) a{
+        font-size: 14px !important;
+    }
+    .navigation-inner .navbar-brand{
+        margin-left: 15px;
+    }
+    .navigation-inner .navbar-toggler{
+        margin-right: 15px;
+    }
+    .navigation-inner [class*="col-"] {
+        padding: 0;
+    }
+    .navigation-inner .navbar-collapse, .navbar-nav .dropdown-menu{
+        margin: 0 auto;
+        width: 100%;
+        background-color: var(--primary-temp-color);
+    }
+    .navigation-inner .navbar-collapse{
+        position: absolute;
+        top: 100%;
+        z-index: 1000;
+    }
+    .navigation-inner .navbar-collapse li{
+        margin: 0;
+        position: relative;
+        text-align: left;
+        border-top: 1px solid var(--secondary-temp-color);
+        cursor: pointer;
+    }
+    .navigation-inner .navbar-collapse a,
+    .navigation-inner .navbar-nav .dropdown-menu a{
+        text-decoration: none;
+        height: 50px;
+        line-height: 50px;
+        display: block;
+        padding: 0 15px;
+        color: #ffffff;
+        font-weight: normal;
+        text-transform: capitalize;
+        outline: 0;
+        -webkit-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    .navigation-inner .navbar-collapse a:hover,
+    .navigation-inner .navbar-nav .dropdown-menu a:hover{
+        color: #28293a;
+        background: var(--secondary-temp-color);
+    }
+    .navigation-inner .dropdown-toggle:after {
+        position: absolute;
+        right: 15px;
+        top: 25px;
+        bottom: 0;
+    }
+
+    /*    Hotel List  */
+    .hotle-list-item .room-item .content {
+        display: block;
+        padding: 10px 15px;
+    }
+    .hotle-list-item .room-item .bottom {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        height: 100%;
+        border: none;
+        padding: 0px 15px;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+
+
+    /*    Package List  */
+    .package-list-item .room-item .content {
+        display: block;
+        padding: 10px 15px;
+    }
+    .package-list-item .room-item .bottom {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        height: 100%;
+        border: none;
+        padding: 0px 15px;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+    .main-heading{
+        font-size: 30px;
+        overflow: hidden;
+    }
+    .service__control .swiper-nav-nav .swiper-nav-prev, .service__control .swiper-nav-nav .swiper-nav-next, .swiper-nav-nav .swiper-nav-prev, .swiper-nav-nav .swiper-nav-next{
+        display: none !important;
+    }
+    .bk-search-section.dashboard-search{
+        top: 25%;
+    }
+    .footer--right-shape, .footer-ornament, .popular-package .events__shape img.events-1-shape{
+        display: none;
+    }
+    .close-form{
+        display: none;
+    }
+    .time-stop{
+        padding: 0 30px;
+    }
+    .flight-infos.depart, .flight-infos-details.destination, .flight-infos.arrive{
+        text-align: center;
+    }
+    .airbus{
+        margin-bottom: 15px;
+    }
+    .price-inner.price-booking{
+        flex-direction: column;
+    }
+    .price-booking .booking{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .modify__search .theme-btn{
+        padding: 30px 45px 28px 80px;
+        margin-top: 15px;
+    }
+
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .navbar-v17 li a{
+        font-size: 14px;
+    }
+    .service__control .swiper-nav-nav .swiper-nav-next {
+        right: 42.5%;
+    }
+    .footer--right-shape, .footer-ornament, .popular-package .events__shape img.events-1-shape{
+        display: none;
+    }
+    .blog-slide .blog-title a{
+        font-size: 18px;
+    }
+    .close-form{
+        display: none;
+    }
+    .navbar-nav .dropdown-menu:before{
+        left: 50px;
+    }
+    .navbar-nav .dropdown-menu{
+        left: -30% !important;
+    }
+}

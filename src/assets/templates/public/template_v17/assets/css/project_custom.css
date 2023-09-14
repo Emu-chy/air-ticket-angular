@@ -1,0 +1,634 @@
+/*Common Modal - All*/
+.no-data-found{
+    width: 700px;
+    height: 400px;
+}
+#common-modal.modal{
+    max-width: 900px;
+    height: auto;
+}
+.common-modal.modal{
+    max-width: 900px;
+    height: auto;
+}
+.one_way_end_line{
+	text-decoration-line: line-through;
+}
+.ui-datepicker-month{
+	height: 25px !important
+}
+.ui-datepicker-year{
+	height: 25px !important
+}
+.input-range-filter{
+	background: #fff !important;
+	border: none !important;
+	color: #F19C4F!important;
+	font-weight: bold !important;
+	letter-spacing: 1px !important;
+	font-size: 18px !important;
+	width: 100% !important;
+	margin: 5px 0px !important;
+}
+
+.error-msg,.error-msg h5 {
+	color: var(--secondary-temp-color);
+}
+.custome-table td{
+	padding: 5px !important ;
+}
+.online-payment-area {
+	display: none;
+}
+
+.subbtn-section-area{
+	display: flex;
+	justify-content: space-between;
+	margin-top:15px;
+}
+.ui-widget-content {
+	z-index: 99 !important;
+	background: var(--primary-temp-color);
+	box-shadow: 5px 4px 12px 4px rgba(9, 60, 103, .25);
+	border: 1px solid var(--secondary-temp-color);
+	border-radius: 5px;
+}
+.ui-widget.ui-widget-content li.ui-menu-item:hover,
+.ui-widget.ui-widget-content li.ui-menu-item{
+	background-image: none !important;
+}
+li.ui-menu-item .ui-menu-item-wrapper{
+	transition: .3s all;
+}
+li.ui-menu-item .ui-menu-item-wrapper:hover{
+	background: var(--secondary-temp-color) !important;
+	color: var(--primary-temp-color);
+}
+.modal{
+	z-index: 99999999 !important;
+}
+.ui-widget.ui-widget-content li.ui-menu-item{
+	border-bottom: 1px solid var(--secondary-temp-color) !important;
+}
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+	background: var(--secondary-temp-color) !important;
+}
+li.ui-menu-item .ui-menu-item-wrapper{
+	padding: 10px !important;
+	color: #fff;
+	font-weight: 500;
+}
+
+.custome-slider-range .ui-state-default {
+    content: '';
+    height: 25px !important;
+    width: 25px !important;
+    border-radius: 50%;
+    /* background: var(--primary-temp-color) !important; */
+    position: absolute;
+    border: 2px solid var(--primary-temp-color);
+}
+.custome-slider-range .ui-state-default:after{
+	content: '';
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background: var(--primary-temp-color);
+    border-radius: 50%;
+    top: 3px;
+    left: 3px;
+}
+.ui-slider-horizontal .ui-slider-handle {
+    top: -10px;
+}
+
+.custome-slider-range .ui-widget-header{
+	background: var(--secondary-temp-color);
+}
+.search-slider-banner h3{
+	margin-bottom: 0px !important;
+}
+.search-slider-banner .item-banner{
+	min-height: 400px !important;
+}
+.search-slider-banner .custome-table{
+	text-align: center;
+}
+.page-title-inner h1{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 24px;
+}
+.page-title-inner .msg-heading ,.msg-heading{
+	font-size: 16px;
+}
+.page-title-inner .error-heading ,.error-heading{
+	font-size: 16px;
+	color:var(--secondary-temp-color);
+}
+.page-title-inner .success-heading,.success-heading{
+	font-size: 16px;
+	color:#28a745;
+}
+#Hotel_Booking_Timer{
+	color: var(--secondary-temp-color)
+}
+
+
+textarea.custom-textarea
+{
+	height: 80px !important;
+	background-color: #263749;
+	text-align: center;
+	border-color: #263749;
+	color: #000;
+}
+
+.actionMsg,.actionMsg h5,.action-auth-msg { color: var(--secondary-temp-color);font-size: 14px }
+.Reg-actionMsg,.Reg-actionMsg h5 { color: var(--secondary-temp-color);font-size: 14px }
+
+/*Custom Font Style*/
+.font-12
+{
+	font-size: 12px !important;
+}
+
+.package-price-custom
+{
+	color: var(--secondary-temp-color);
+	font-weight: bold;
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+
+.custom-input-label
+{
+	margin-top: 6px;
+	font-weight: bold;
+}
+
+.booking h2
+{
+	color: #0088cc;
+	padding: 10px 0;
+}
+
+.booking h3
+{
+	color: #B1A398;
+	padding: 0 10px 15px;
+}
+
+.message-info-custom
+{
+	text-align: center;
+	margin-left: 530px;
+	margin-bottom: 200px;
+}
+
+.support-ticket-view
+{
+	background: #E9E6E0;
+	padding: 10px;
+	overflow: hidden;
+	margin-bottom: 7px;
+}
+
+.scroolable-view {
+	overflow: scroll;
+	height: 290px;
+}
+
+.input-email textarea.custom-textarea
+{
+	color: #fff !important;
+}
+
+/*Support Ticket Message View : Start*/
+.admin-chatbox
+{
+	background: #f3f3f3;
+}
+
+.message-box
+{
+	border: 2px solid #dedede;
+	background: #84a8cead;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px 0;
+}
+/*Support Ticket Message View : End*/
+.justify-text
+{
+	text-align: justify;
+}
+
+
+/*Paspport and Visa Area Customize : Start*/
+img.visa-pp-image-customize {
+	height: 150px !important;
+	width: 250px !important;
+}
+
+
+a.balance-area
+{
+	color: #fff !important;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.passport-header-area
+{
+	border-bottom: 5px solid #93a5d1;
+	padding: 5px;
+	margin-bottom: 15px;
+}
+
+.passport-upload-expire
+{
+	color: red;
+	font-size: 14px;
+}
+
+.passport-table-header
+{
+	font-size: 16px;
+	color: #000;
+	font-weight: bold;
+}
+/*Paspport and Visa Area Customize : End*/
+
+/*.navigation-bottom-border*/
+/*{*/
+/*	border-bottom: 2px solid #ccc;*/
+/*}*/
+
+
+h2.blog-bottom-border
+{
+	padding: 3px;
+	border-bottom: 4px double var(--secondary-temp-color);
+}
+
+/*Blog Details Area : Start*/
+label.blogdate {
+	width: 420px;
+	float: left;
+}
+
+
+.blogImg img {
+	border: 1px solid #ccc;
+	-webkit-border-radius: 5px;
+	padding: 8px;
+	width: 400px;
+	float: left;
+	margin-right: 8px;
+}
+
+label.blogdate span {
+	color: #08c;
+	font-size: 12px;
+	width: 100%;
+	text-align: center;
+}
+/*Blog Details Area : End*/
+
+/*Solution Details Page : Start*/
+/*.solution-text-details*/
+/*{*/
+/*	background-color: #d4fdc6a8;*/
+/*}*/
+
+.alertMessage
+{
+	color: red !important;
+}
+
+#alert-message-show {
+	position:fixed;
+	top: 215px;
+	right: 13%;
+	width: 70%;
+	margin-top: -9em; /*set to a negative number 1/2 of your height*/
+	margin-left: -15em; /*set to a negative number 1/2 of your width*/
+	z-index: 1000000;
+}
+
+/*Solution Details Page : End*/
+
+/*Custom Margin : Start*/
+.margin-bottom8px
+{
+	margin-bottom: 8px;
+}
+
+.margin-bottom15px
+{
+    margin-bottom: 15px !important; 
+}
+
+.margin-top25px
+{
+	margin-top: 25px;
+}
+
+.paragraph-margin
+{
+	margin-left: 6px;
+	margin-right: 6px;
+}
+/*Custom Margin : End*/
+#sendTicket .form-horizontal
+{
+	padding-bottom: 0px;
+}
+
+
+
+/******************************************************************************************************/
+/*Package Style : Start*/
+.package-nodata-found
+{
+	color: var(--secondary-temp-color);
+}
+
+.package-star-rating
+{
+	color: var(--secondary-temp-color);
+}
+
+.tour-id-label {
+	position: absolute;
+	top: 0px;
+	width: 182px;
+	background: #000;
+	display: none;
+}
+
+.tour-id {
+	position: absolute;
+	top: 0px;
+	text-align: center;
+	color: #fff;
+	padding: 10px;
+	z-index: 1;
+	display: inline-block;
+	background: var(--primary-temp-color);
+}
+
+.hotle-list-item .room-item .img .package_booking_sidebar {
+	position: relative;
+	overflow: hidden;
+	height: 250px;
+	width: auto;
+}
+
+
+img.extra-feature-image
+{
+	height: 200px;
+	width: 400px;
+}
+
+
+/*Package Style : End*/
+/******************************************************************************************************/
+
+/*Visa Style : Start*/
+/******************************************************************************************************/
+.visa-margin-left
+{
+	margin-left: 90px;
+}
+.bottom .font-weight-800
+{
+	font-weight: 800 !important;
+}
+/******************************************************************************************************/
+/*Visa Style : End*/
+
+
+/*Color*/
+.redColor
+{
+	color: red;
+}
+
+
+/*================================New Added Style============================*/
+.add-multi-stop-row{
+	padding: 11px 15px;
+}
+/*.status-section{
+	width: 100% !important;
+}*/
+.status-section ul{
+	justify-content: left !important;
+}
+.inner-heading .status-section ul li{
+	margin-left: 0 !important;
+	margin-right: 10px !important;
+}
+.service-item .title p,
+.blog-slide .blog-description {
+	height: auto;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+#forgetPassword .submit-sec{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.btn.btnBt.search{
+	padding: 11px 15px;
+}
+@media only screen and (max-width: 575px){
+	#loginContent.modal,
+	#signupContent.modal{
+		width: 100% !important;
+	}
+	.modal .fa-question-circle{
+		display: none;
+	}
+	.form-horizontal .btn{
+		white-space: nowrap;
+	}
+}
+
+@media only screen and (max-width: 767px){
+	.text-right.custom-input-label{
+		text-align: left !important;
+	}
+	.subbtn-section .btnBt{
+		max-width: 150px !important;
+	}
+	/* .slider-container{
+		position: absolute;
+	} */
+	.bk-search-section.dashboard-search{
+		position: absolute;
+		top: 50px;
+		z-index: 9;
+	}
+}
+@media only screen and (min-width: 767px) {
+
+}
+.btn.btnBt.destroy-multi-stop-row {
+	padding: 11px 15px;
+}
+
+#price-summery.modal{
+    height: auto !important;
+}
+.summery-title{
+    font-size: 24px;
+}
+.summery-body{
+    display: block;
+}
+.summery-inner{
+    display: block;
+    margin-bottom: 10px;
+    line-height: 25px;
+    text-align: center;
+}
+.summery-inner span:first-child{
+    font-weight: bold;
+    color: #0a1c2e;
+}
+.summery-inner span:last-child{
+    font-weight: bold;
+    color: var(--secondary-temp-color);
+}
+.summery-item{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.summery-inner p{
+    font-weight: bold;
+    color: #0a1c2e;
+    font-size: 18px;
+}
+
+
+.air-logo img{
+    width: 50px;
+    height: auto;
+}
+
+.booking-cancel-area {
+    border: 4px solid #ccc;
+    padding: 5px;
+}
+.booking-cancel {
+    font-weight: bold;
+    margin: 0px !important;
+    color: #fff;
+    background-color: #363d48;
+    padding: 5px;
+}
+
+.marquee#marquee {
+    background-color: #cccccc;
+    color: white;
+    margin-bottom: -2px;
+    font-size: larger;
+    padding: 3px;
+}
+
+#accordion .panel-title a{
+	font-size: 12px;
+}
+.marquee a{ color: #000 }
+.text-case{ text-transform: uppercase; }
+
+.system-error-img{
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*404 Page Not Found*/
+.main.system-error .wrap
+{
+	width: 900px; 
+	height: 50px; 
+	margin-left: 250px;
+}
+
+
+.temp-common-content .section-body span {
+    font-size: 14px !important;
+    white-space: inherit !important;
+}
+
+.sendquery-area textarea.text-area
+{
+	line-height: 2.5 !important;
+	height: 100px !important;
+}
+
+/* .group-ticket-button
+{
+	margin-left: 670px;
+}
+.group-go-button
+{
+	margin-left: 850px;
+} */
+
+.pfilter-inner-active
+{
+    background-color:#e7eaf3 !important;
+}
+
+.flight-details #myTab{
+	border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.flight-details #myTab a{
+	padding: 15px 25px;
+	color: #fff;
+}
+.flight-details #myTab a:hover,.flight-details #myTab a.active{
+	color: var(--primary-temp-color) !important;
+}
+.add-multi-stop-row, .destroy-multi-stop-row{
+	color: var(--primary-temp-color) !important;
+}
+
+
+.fare-rules-area.farerules h6{
+	margin-top: 15px;
+    margin-bottom: 10px;
+    color: #fff;
+    background: #e1b12c;
+    padding: 7px 15px;
+}
+
+.fare-rules-area.farerules p{
+	line-height: 22px;
+    font-size: 14px;
+    text-align: justify;
+    color: #000;
+}
+
+

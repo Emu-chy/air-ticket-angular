@@ -1,0 +1,77 @@
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+.table-bordered td, .table-bordered th {
+    border: 1px solid #dee2e6;
+}
+.table td, .table th {
+    padding: .35rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+.font-weight-bold {
+    font-weight: 700 !important;
+}
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+
+.print-content .page-title-section{
+    display: none;
+}
+.print-section{
+    display: block;
+    position: relative;
+    padding:100px 0;
+}
+.print-area{
+    display: block;
+    position: relative;
+    background: #fff;
+    padding: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+.print-btn-sec{
+    display: flex;
+    justify-content: left;
+}
+.print-btn-sec .btn{
+    max-width: 175px;
+    margin-right: 10px;
+}
+
+.c_logo{ height: 50px; width: 150px; }
+.airlines-logo{ height: 30px; width: 50px; }
+
+.pt.btn{background: #337ab7;}
+.pt.btn:after{background: #337ab7;}
+.pt.btn:hover:after{border: 1px solid #337ab7;}
+
+.dn.btn{background: #5bc0de;}
+.dn.btn:after{background: #5bc0de;}
+.dn.btn:hover:after{border: 1px solid #5bc0de;}
+
+
+.page-title{
+    display: block;
+    text-align: center;
+}
+table, th, td {
+    border-collapse: collapse;
+}
+@media all and (min-width: 768px){
+    .company-information address{
+        text-align: right;
+    }
+}
+
+/*Date : 28-04-2020*/
+

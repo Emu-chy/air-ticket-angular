@@ -1,0 +1,73 @@
+<app-navbar />
+
+<main class="temp-content temp-common-content find-your-booking">
+  <div class="page-title-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="page-title-inner">
+            <h1 class="main-heading">Find your Booking</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="com-section booking-report-info">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-12">
+          <div class="section-header">
+            <h2>
+              <span>Find your Booking</span> <i class="fas fa-caret-down"></i>
+            </h2>
+          </div>
+          <div class="section-body">
+            <div class="body-inner">
+              <div class="status-query">
+                <form
+                  class="common-form my_common_loader"
+                  method="post"
+                  action="https://myairticket.xyz/home/findboooking"
+                >
+                  <div class="form-content">
+                    <div class="form-row">
+                      <div class="form-group col-12 col-md-4">
+                        <label for="">Booking no :</label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          name="Bookingno"
+                          value=""
+                          placeholder="Booking no"
+                          required="true"
+                          minlength="5"
+                        />
+                      </div>
+                      <div class="form-group col-12 col-md-4">
+                        <label for="">First or Last Name :</label>
+                        <input
+                          type="text"
+                          class="form-control text-validation"
+                          name="paxname"
+                          value=""
+                          placeholder="First or Last Name"
+                          required="true"
+                        />
+                      </div>
+                      <div class="form-group col-12 col-md-3">
+                        <label>&nbsp;</label>
+                        <button type="submit" class="btn btnBt">Submit</button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!---Booking Report Section End--->
+</main>
+<app-footer />

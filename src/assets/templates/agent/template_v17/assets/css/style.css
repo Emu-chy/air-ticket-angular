@@ -1,0 +1,29 @@
+/**
+  * Name: Booking Engine
+  * Version: 1.0
+  * Author: PRIMETECBD
+  * Author URI: https://primetechbd.com/
+*/
+
+@import "common.css";
+@import "header.css";
+@import "homepage.css";
+@import "flightlist.css";
+@import "hotellist.css";
+@import "package.css";
+@import "information.css";
+@import "contact.css";
+@import "footer.css";
+@import "responsive.css";
+
+
+
+/*=========================================================Responsive Style Start============================================================*/
+
+@media only screen and (min-width: 1400px){
+    .container{
+        max-width: 80% !important;
+    }
+}
+
+

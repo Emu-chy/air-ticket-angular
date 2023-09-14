@@ -1,0 +1,275 @@
+
+.com-section{
+    display: block;
+    padding: 0 0 25px 0;
+}
+.section-header{
+    display: block;
+    background: var(--primary-temp-color);
+}
+.section-header h2{
+    font-size: 16px;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 5px 15px;
+    color: #fff;
+    cursor: pointer;
+}
+.section-header small{
+    font-size: 12px;
+    color: #dc3545;
+}
+.section-body{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 15px;
+    color: #0a1c2e;
+    border: 1px solid #0a1c2e;
+    line-height: 25px;
+}
+.com-section.hotel-info .section-body{
+    display: block;
+}
+.com-section.hotel-info .section-body
+.body-inner{
+    width: 100%;
+}
+.section-body .table{
+    margin-bottom: 0;
+    width: 100%;
+}
+.section-body span{
+    font-size: 14px;
+    white-space: nowrap;
+}
+.content-top span{
+    font-size: 18px;
+}
+.content-top span.fa{
+    color: var(--secondary-temp-color);
+}
+.air-info, .flight-info, .flight-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.body-inner {
+    width: 100%;
+}
+.body-inner .airport-short {
+    font-weight: bold;
+    color: var(--secondary-temp-color);
+    font-size: 16px;
+}
+.subbtn-section{
+    display: block;
+    text-align: center;
+}
+.layover span{
+    display: block;
+    font-size: 12px;
+    color: #dc3545;
+    font-weight: bold;
+}
+.subbtn-section .btnBt{
+    max-width: 200px;
+}
+.passenger {
+    display: block;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f0f0f0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.section-body .content-wraper{
+    border: 1px solid var(--secondary-temp-color);
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.section-body .room-content{
+    margin-bottom: 15px;
+}
+.common-form{
+    width: 100%;
+}
+.item-inner td{
+    border-top: none;
+    white-space: nowrap;
+}
+.item-inner tr{
+    border-bottom: 1px solid #dedede;
+    vertical-align: center;
+}
+.item-inner tr:last-child{
+    border-bottom: none;
+}
+/*=======================Package Booking ======================*/
+.package-booking .hotle-list-item .room-item .content {
+    display: block;
+    padding: 10px 15px;
+}
+.package-booking .hotle-list-item .room-item .bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+    border: none;
+    padding: 0px 15px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+.booking-search-info tr td:first-child,
+.booking-details-info tr td:first-child{
+    font-weight: bold;
+}
+.booking-sidebar ul li{
+    display: block;
+    margin-bottom: 10px;
+}
+.status-section {
+    display: block;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 15px;
+}
+.booking-report-info .status-section{
+    padding-bottom: 0;
+    border-bottom: none;
+}
+.status-section ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
+}
+.status-section ul li{
+    font-size: 14px;
+	display: inline-flex;
+	margin: 2.5px;
+}
+.status-section ul li button{
+    font-size: 14px;
+}
+
+.status-section.custom-booking-report-btn ul li button{
+    font-size: 10px;
+}
+
+.status-section ul li{
+    margin-bottom: 10px;
+}
+
+
+
+.btnBt.red {background: #d43f3a;}
+.btnBt.red .badge {color: #d43f3a;}
+.btnBt.red:hover {color: #fff;}
+.btnBt.red:after {background: #d43f3a;}
+.btnBt.red:hover:after { border: 1px solid #d43f3a;}
+
+.btnBt.blue {background: var(--secondary-temp-color);}
+.btnBt.blue .badge {color: #0084bd;}
+.btnBt.blue:hover {color: #fff;}
+.btnBt.blue:after {background: #0084bd;}
+.btnBt.blue:hover:after { border: 1px solid #0084bd;}
+
+.btnBt.aqua {background: #47c3cf;}
+.btnBt.aqua .badge {color: #47c3cf;}
+.btnBt.aqua:hover {color: #fff;}
+.btnBt.aqua:after {background: #47c3cf;}
+.btnBt.aqua:hover:after { border: 1px solid #47c3cf;}
+
+.btnBt.sky {background: #46b8da;}
+.btnBt.sky .badge {color: #46b8da;}
+.btnBt.sky:hover {color: #fff;}
+.btnBt.sky:after {background: #46b8da;}
+.btnBt.sky:hover:after { border: 1px solid #46b8da;}
+
+.btnBt.yellow .badge {color: var(--secondary-temp-color);}
+
+.status-query{
+    display: block;
+    padding: 15px 0;
+}
+
+.inner-heading{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.headings{
+    font-weight: bold;
+    color: #28a745;
+    font-size: 18px;
+}
+.inner-heading .status-section ul li{
+    margin-left: 10px;
+}
+.add-tickets-info .status-section ul{
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.add-tickets-info .status-section ul li{
+    padding: 5px;
+}
+
+.features-price {
+    padding: 0px;
+}
+.package-booking .item-inner td {
+    height: 100%;
+    vertical-align: middle;
+}
+
+.section-body-inner{
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 767px) {
+   .form-content{
+       margin-top: 10px;
+   }
+}
+
